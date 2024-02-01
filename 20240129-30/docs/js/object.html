@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    <script>
+        // console.log(window);
+
+        let user={
+            name: "yee",
+            age: 15,
+            phone: 123,
+            call(){
+                console.log("hello I'm " + this.name);
+            }
+        }
+
+        console.log(user);
+        console.log(user.name);
+        user.phone = 1234
+        console.log(user.phone);
+        user.call();
+
+
+    </script>
+</body>
+</html>
